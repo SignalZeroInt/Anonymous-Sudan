@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+body {
+    background-color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+a:link {
+    text-decoration: inherit;
+    cursor: auto;
+}
+
+a:visited {
+    text-decoration: inherit;
+    cursor: auto;
+}
+
+a {
+    color: #2F8F9D;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #89D1D2;
+}
+
+.logo {
+    width: 15rem;
+    margin-top: 0.5rem;
+}
+
+.navbar-text {
+    margin-top: 0.5rem;
+}
+
+.introduction-wrapper {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.introduction-wrapper,
+.image-wrapper {
+    margin-right: 2rem;
+}
+
+.files-container {
+    height: 100%;
+    margin: 5rem auto 2rem;
+}
+
+.files-container .ip-address-files .ip-address-files-list {
+    height: 15rem;
+    overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #89D1D2;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2F8F9D;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #89D1D2;
+}
+
+/*
+h2 {
+    margin: 0 0 0.5em;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+}
+
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.banner .logo {
+    width: 30em;
+}
+
+.introduction {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.introduction p {
+    margin: 5rem auto;
+    width: 45em;
+    text-align: justify;
+}
+
+.information {
+    display: flex;
+    font-weight: 600;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.information .careers,
+.information .contact {
+    width: 15rem;
+    margin-left: 2rem;
+}
+
+.information .careers a,
+.information .contact a {
+    color: #2F8F9D;
+    transition: 0.2s;
+}
+
+.information .careers a:hover,
+.information .contact a:hover {
+    color: #89D1D2;
+}
+
+@media (max-width: 1025px) {
+    
+    body {
+        overflow-y: scroll;
+    }
+
+    .banner {
+        transform: translate(0, 0);
+    }
+
+    .banner .logo {
+        width: 30rem;
+    }
+
+    .introduction {
+        display: flex;
+        justify-content: center;
+        margin: 2rem auto 0;
+    }
+
+    .introduction p {
+        width: 30rem;
+        text-align: justify;
+    }
+
+    .information {
+        font-weight: 600;
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+    }
+} */
